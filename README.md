@@ -2,7 +2,7 @@
 
 SymGuide est un projet open source qui a pour but de fournir un guide complet sur le framework Symfony en français. À l'initiative de ce projet, [Jensone](https://jensone.com), Développeur Fullstack et Formateur.
 
-Ce projet est réalisé avec des contributeurs issus des étudiants qui ont suivi des formations DWWM, CDA ou autre Bootcamp. Envie d'apprendre et de contribuer ? Rejoignez-nous la communauté sur le [Discord Agiliteach](https://discord.gg/J9Kx3s4rC8) !
+Ce projet est réalisé avec des contributeurs issus des étudiants qui ont suivi des formations DWWM, CDA ou autre Bootcamp. Envie d'apprendre le framework et de contribuer ? Rejoignez la communauté sur le discord [Agiliteach](https://discord.gg/J9Kx3s4rC8) !
 
 ## Pourquoi "SymGuide" ?
 
@@ -23,4 +23,4 @@ Vous pouvez contribuer de différentes manières :
 - En corrigeant les fautes d'orthographe
 - En proposant des exercices pratiques
 
-Rendez-vous sur le [Discord Agiliteach](https://discord.gg/J9Kx3s4rC8) pour en discuter.
+Rendez-vous sur le [Discord Agiliteach](https://discord.gg/J9Kx3s4rC8).

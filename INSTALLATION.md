@@ -2,7 +2,7 @@
 description: L'installation de Symfony
 ---
 
-# Créer un projet Symfony
+# Débuter avec Symfony
 
 # Comment installer Symfony sur son ordinateur ?
 
