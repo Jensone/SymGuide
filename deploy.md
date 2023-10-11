@@ -30,11 +30,11 @@ description: Déployer une application Symfony sur un serveur de production
 - Renommer le dossier du projet avec le nom de domaine (voir avec l'interface Cpanel ou Plesk par exemple).
 - Modifier le fichier `.env` avec l'environnement de production
 - Rendez-vous dans le terminal du serveur de production et se rendre dans le dossier du projet et réaliser les commandes suivantes :
-    - `composer install`
-    - `php bin/console d:m:m`
-    - `APP_ENV=prod APP_DEBUG=0 php bin/console cache:clear`
-    - `php bin/console cache:warmup`
-    - `composer install --no-dev --optimize-autoloader`
+  - `composer install`
+  - `php bin/console d:m:m`
+  - `APP_ENV=prod APP_DEBUG=0 php bin/console cache:clear`
+  - `php bin/console cache:warmup`
+  - `composer install --no-dev --optimize-autoloader`
 - Vérifier que l'application est bien en ligne
 - Dans le cas ou une erreur se produit voici les précautions :
   - Erreur ^500 : Réactiver le mode `dev` afin de voir l'erreur et la corriger
