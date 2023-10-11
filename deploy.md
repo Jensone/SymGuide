@@ -1,6 +1,10 @@
-# Déploiement avec Symfony
-
 ---
+description: Déployer une application Symfony sur un serveur de production
+---
+
+# Le déploiement
+
+# Pourquoi déployer une application Symfony ?
 
 ## Préparation du serveur de production
 
