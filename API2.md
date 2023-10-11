@@ -98,6 +98,60 @@ class Doctor
 
 Rendez-vous sur la page `/api` de votre projet, vous devriez voir une page avec la liste des routes de votre API.
 
+Avant de se quitter, on va ajouter quelques données dans notre base de données. Pour cela, on va créer des données de test avec le package Fixtures et Faker.
+
+```bash
+composer require orm-fixtures --dev
+```
+
+Puis
+
+```bash
+composer require fakerphp/faker
+```
+
+Dans le dossier `src/DataFixtures`, insérez le code suivant dans le fichier `AppFixtures.php` et ajoutez-y le code suivant :
+
+```php
+<?php
+
+// ...
+
+use App\Entity\Doctor;
+use Faker\Factory;
+
+class AppFixtures extends Fixture
+{
+    public function load(ObjectManager $manager)
+    {
+        $faker = Factory::create('fr_FR');
+
+        for ($i = 0; $i < 30; $i++) {
+            $doctor = new Doctor();
+            $doctor->setFirstname($faker->firstName());
+            $doctor->setLastname($faker->lastName());
+            $doctor->setSpeciality($faker->jobTitle());
+            $doctor->setAddress($faker->streetAddress());
+            $doctor->setCity($faker->city());
+            $doctor->setZip($faker->postcode());
+            $doctor->setPhone($faker->phoneNumber());
+
+            $manager->persist($doctor);
+        }
+
+        $manager->flush();
+    }
+}
+```
+
+N'oubliez pas d'exécuter la commande suivante pour insérer les données dans la base de données
+
+```bash
+symfony console d:f:l
+```
+
+On a désormais des données de test dans notre base de données. On peut maintenant les afficher dans notre API !
+
 Et voilà, vous avez créé votre première API avec Symfony et API Platform. Vous pouvez désormais mettre en place des Assertions pour la validation des données, mettre en place des filtres, une pagination ou encore l'authentification avec JWT.
 
 N'oubilez pas de tester votre API avec [Postman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/).
