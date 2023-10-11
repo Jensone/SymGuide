@@ -24,4 +24,4 @@
 * [Consommer une API](API.md)
 * [Créer une API](API2.md)
 * [Les tests](TESTS.md)
-* [Le déploiement](DEPLOY.md)
+* [Le déploiement](DEPLOYMENT.md)
