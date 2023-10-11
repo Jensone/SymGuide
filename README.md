@@ -1,3 +1,0 @@
-# symguide
-
-Docu test
