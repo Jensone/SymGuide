@@ -12,7 +12,7 @@ Sym pour Symfony et Guide pour Guide.
 
 Nombreux sont les néo-dev qui se lancent dans l'apprentissage de Symfony. Cependant, il n'est pas toujours facile de trouver des ressources en français. De plus, les ressources en anglais sont souvent trop compliquées pour les débutants.
 
-Au-delà de la documentation officielle, il n'existe pas de guide complet sur Symfony en français. C'est pourquoi, j'ai décidé de créer ce guide afin de permettre aux débutants de se lancer dans l'apprentissage de Symfony et aux plus avancés de trouver des réponses à leurs questions rapidement.
+Au-delà de la documentation officielle, il n'existe pas de **guide complet** sur Symfony en français. C'est pourquoi, j'ai décidé de créer ce guide afin de permettre aux débutants de se lancer dans l'apprentissage de Symfony et aux plus avancés de trouver des réponses à leurs questions rapidement.
 
 ## Comment contribuer ?
 
@@ -24,3 +24,9 @@ Vous pouvez contribuer de différentes manières :
 - En proposant des exercices pratiques
 
 Rendez-vous sur le [Discord Agiliteach](https://discord.gg/J9Kx3s4rC8).
+
+---
+
+#### Licence
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://symguide.com/">SymGuide</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://jensone.com">Jensone</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-NoDerivatives 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></a></p>
