@@ -4,7 +4,7 @@ SymGuide est un projet open source qui a pour but de fournir un guide complet su
 
 Ce projet est réalisé avec des contributeurs issus des étudiants qui ont suivi des formations DWWM, CDA ou autre Bootcamp. Envie d'apprendre et de contribuer ? Rejoignez-nous la communauté sur le [Discord Agiliteach](https://discord.gg/J9Kx3s4rC8) !
 
-## Pourquoi SymGuide ?
+## Pourquoi "SymGuide" ?
 
 Sym pour Symfony et Guide pour Guide.
 
