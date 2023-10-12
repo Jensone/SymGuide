@@ -2,8 +2,8 @@
 
 | nom du fichier | titre du fichier | statut |
 | --- | --- | --- |
-| INSTALLATION.md | Installation | En cours |
-| DX.md | DX | En cours |
+| INSTALLATION.md | Installation | Terminé |
+| DX.md | DX | Terminé |
 | TERMINAL.md | Le terminal de commande | En cours |
 | INTERNET.md | Rappel sur Internet & Web | Libre |
 | MVC.md | Rappel sur le pattern MVC | Libre |
@@ -25,3 +25,4 @@
 | API.md | Consommer une API | En cours |
 | API2.md | Créer une API | Terminé |
 | TESTS.md | Les tests | Libre |
+| DEPLOY.md | Les tests | Terminé |
