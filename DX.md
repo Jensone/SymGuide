@@ -20,13 +20,17 @@ En résumé ce gain de temps, de qualité, de confort, de sérénité et de séc
 
 ## Symfony CLI
 
-Cet outil va vous permettre de créer des projets Symfony, de les lancer, de les deboguer. C'est un peu comme un couteau suisse pour Symfony dans un environnement de développement. Voici la liste des commande en fonction de vos  projets d'applications. Pour les executer, il suffit de taper `symfony` ou `php bin/console` suivi de la commande :
+Cet outil est un excellent exemple de DX. Ré-écris le même code est contraignant et fastidieux. Symfony CLI. Il permet de créer un projet Symfony en une seule commande. Il permet aussi de lancer un serveur web local ou encore un serveur de logs en une seule commande.
+
+Voici la liste des commandes en fonction de vos projets d'applications. Pour les executer, il suffit de taper `symfony` ou `php bin/console` suivi de la commande :
 
 | Commandes | Description |
 | :--- | :--- |
 | check:requriments | Vérifier les prérequis de votre ordinateur |
 | new | Créer un nouveau projet Symfony |
-| serve | Lancer le serveur web local |
+| server | Lancer le serveur web local avec les logs |
+| server:start -d | Lancer le serveur web local sans bloquer le terminal |
+| server:stop | Arrêter le serveur web local |
 | about | Affiche des informations sur le projet en cours |
 | completion | Génère le script de complétion pour le shell |
 | help | Affiche l'aide pour une commande |
