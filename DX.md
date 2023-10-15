@@ -20,7 +20,7 @@ En résumé ce gain de temps, de qualité, de confort, de sérénité et de séc
 
 ## Symfony CLI
 
-Cet outil est un excellent exemple de DX. Ré-écris le même code est contraignant et fastidieux. Symfony CLI. Il permet de créer un projet Symfony en une seule commande. Il permet aussi de lancer un serveur web local ou encore un serveur de logs en une seule commande.
+Cet outil est un excellent exemple de DX. Ré-écrire le même code est contraignant et fastidieux. Symfony CLI. Il permet de créer un projet Symfony en une seule commande. Il permet aussi de lancer un serveur web local ou encore un serveur de logs en une seule commande.
 
 Voici la liste des commandes en fonction de vos projets d'applications. Pour les executer, il suffit de taper `symfony` ou `php bin/console` suivi de la commande :
 
