@@ -6,6 +6,8 @@ description: Déployer une application Symfony sur un serveur de production
 
 # Pourquoi déployer une application Symfony ?
 
+Le déploiement d'une application Symfony permet de mettre en ligne une application web. Cela permet de rendre accessible l'application à tous les utilisateurs.
+
 ## Préparation du serveur de production
 
 - Rattacher un nom de domaine au serveur
