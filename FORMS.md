@@ -199,6 +199,8 @@ Pour afficher le formulaire, il faut l'injecter dans le contrôleur. Pour cela, 
 // ...
 
 use App\Form\CandidateType;
+use Symfony\Component\Mime\Email;
+use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
