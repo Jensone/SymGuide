@@ -191,7 +191,7 @@ use Symfony\Component\Validator\Constraints\File;
 
 ## Afficher et traiter le formulaire
 
-Pour afficher le formulaire, il faut l'injecter dans le contrôleur. Pour cela, il faut ajouter un argument de type `CandidateType` à la méthode `new()` du contrôleur :
+Pour afficher le formulaire, il faut l'injecter dans le contrôleur :
 
 ```php
 # src/Controller/CandidateController.php
