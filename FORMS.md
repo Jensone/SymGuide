@@ -142,7 +142,7 @@ Comme vous pouvez le voir dans l'exemple précédent, la méthode `add()` prend 
 Vous avez peut-être remarque qu'aucun argument n'était passer pour `->add('cv')`. Voyons en détail comment configurer ce champ pour uploader un fichier de type PDF avec `FileType` :
 
 1. Créer un dossier `uploads` à la racine du projet dans lequel seront stockés les fichiers uploadés.
-2. Renseigner le chemin du dossier `uploads` dans le fichier `services.yaml`` :
+2. Renseigner le chemin du dossier `uploads` dans le fichier `services.yaml` :
 
 ```yaml
 # config/services.yaml
@@ -257,7 +257,7 @@ class CandidateController extends AbstractController
 
 Pour afficher le formulaire dans le template, il faut utiliser la méthode `createView()` de l'objet `$form` :
 
-```twig
+```html
 # templates/candidate/new.html.twig
 {% extends 'base.html.twig' %}
 
