@@ -259,20 +259,7 @@ Pour afficher le formulaire dans le template, il faut utiliser la méthode `crea
 
 ```
 # templates/candidate/new.html.twig
-{% extends 'base.html.twig' %}
-
-{% block title %}Candidature{% endblock %}
-
-{% block body %}
-    <h1>Candidature</h1>
-
-    {% for label, messages in app.flashes %}
-        {% for message in messages %}
-            <div class="alert alert-{{ label }}">
-                {{ message }}
-            </div>
-        {% endfor %}
-    {% endfor %}
+// ...
 
     {{ form_start(form) }}
         {{ form_row(form.firstname) }}
@@ -286,7 +273,7 @@ Pour afficher le formulaire dans le template, il faut utiliser la méthode `crea
         {{ form_row(form.submit) }}
     {{ form_end(form) }}
 
-{% endblock %}
+// ...
 ```
 
 Nous avons utilisé la méthode `form_row()` pour afficher les champs du formulaire. Cette méthode affiche le label et le champ. Il existe d'autres méthodes pour afficher les champs du formulaire :
