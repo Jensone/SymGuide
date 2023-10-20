@@ -257,7 +257,7 @@ class CandidateController extends AbstractController
 
 Pour afficher le formulaire dans le template, il faut utiliser la méthode `createView()` de l'objet `$form` :
 
-```text
+```
 # templates/candidate/new.html.twig
 {% extends 'base.html.twig' %}
 
