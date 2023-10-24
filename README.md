@@ -22,7 +22,7 @@
 | DOCTRINE2.md | Doctrine - Partie 2 | En cours |
 | FORMS.md | Les formulaires | Terminé |
 | SERVICES.md | Les services | Libre |
-| API.md | Consommer une API | En cours |
+| API.md | Consommer une API | Terminé |
 | API2.md | Créer une API | Terminé |
 | TESTS.md | Les tests | Libre |
 | DEPLOY.md | Les tests | Terminé |
