@@ -21,7 +21,7 @@
 * [Doctrine - Partie 2](DOCTRINE2.md)
 * [Les formulaires ☑︎](FORMS.md)
 * [Les services](SERVICES.md)
-* [Consommer une API](API.md)
+* [Consommer une API ☑︎](API.md)
 * [Créer une API ☑︎](API2.md)
 * [Les tests](TESTS.md)
 * [Le déploiement ☑︎](DEPLOYMENT.md)
