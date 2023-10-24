@@ -138,13 +138,19 @@ Maintenant, il faut créer les routes `payment_success` et `payment_cancel` qui 
     #[Route('payment/success', name: 'payment_success')]
     public function paymentSuccess(
         Request $request,
-        OrderRepository $orderRepository
+        OrderRepository $orderRepository,
+        EntityManagerInterface $em
     ): Response
     {
         $order = $orderRepository->findOneBy([
             'id' => $request->get('order')
         ]);
+
+        // Mettre à jour le statut de la commande
         $order->setStatut(true);
+        $em->persist($order);
+        $em->flush();
+
         return $this->render('payment/success.html.twig', [
             'order' => $order
         ]);
@@ -155,6 +161,8 @@ Maintenant, il faut créer les routes `payment_success` et `payment_cancel` qui 
     {
         return $this->render('payment/cancel.html.twig');
     }
+
+// ...
 ```
 
 ### Créer les templates
