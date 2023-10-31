@@ -136,7 +136,7 @@ function CountryCard({ country }) {
                     {country.name.common} {country.flag ? country.flag : ''}
                 </h5>
                 <p className="card-text">Capitale: {
-                    country.capital[0] ? country.capital[0] : 'N/A'
+                    country.capital ? country.capital : 'N/A'
                     }</p>
                 <p className="card-text">Population: {country.population.toLocaleString('fr-FR')}</p>
             </div>
