@@ -78,7 +78,7 @@ Maintenant, on passe à l'affichage des pays. On utilise la méthode `map` pour 
     <div className="App">
         <header>
             <h1>Countrix</h1>
-            <RegionSelector />
+            <RegionSelector onChange={setRegion} />
         </header>
         <div className="countries">
             {countries.map((country) => (
