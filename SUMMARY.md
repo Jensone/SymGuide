@@ -25,3 +25,4 @@
 * [Créer une API ☑︎](API2.md)
 * [Les tests](TESTS.md)
 * [Le déploiement ☑︎](DEPLOYMENT.md)
+* [Bonus React ☑︎](REACT.md)
