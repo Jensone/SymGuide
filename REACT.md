@@ -71,10 +71,9 @@ useEffect(() => {
 }, [region]);
 ```
 
-Maintenant, on passe à l'affichage des pays. On utilise la méthode `map` pour parcourir le tableau `countries` et afficher les pays. Pour cela nous avons besoin de créer plusieurs composants `RegionSelector` et `CountryCard`. Saisissez le code suivant dans la méthode `render` du composant `App` :
+Maintenant, on passe à l'affichage des pays. On utilise la méthode `map` pour parcourir le tableau `countries` et afficher les pays. Pour cela nous avons besoin de créer plusieurs composants `RegionSelector` et `CountryCard`. Saisissez le code suivant dans `return` du composant `App` :
 
 ```jsx
-render() {
   return (
     <div className="App">
         <header>
@@ -88,7 +87,6 @@ render() {
         </div>
     </div>
   )
-}
 ```
 
 ### Composant RegionSelector
