@@ -3,7 +3,7 @@
 * [Présentation ☑︎](README.md)
 * [Installation ☑︎](INSTALLATION.md)
 * [DX ☑︎](DX.md)
-* [Le terminal de commande ☒](TERMINAL.md)
+* [Le terminal de commande ☑︎](TERMINAL.md)
 * [Rappel sur Internet & Web ☒](INTERNET.md)
 * [Rappel sur le pattern MVC ☒](MVC.md)
 * [Créer un projet Symfony ☒](START.md)
